@@ -1,0 +1,7 @@
+name: Default environment variables
+on: push
+jobs:
+    print:
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "${GITHUB_ACTOR}"
