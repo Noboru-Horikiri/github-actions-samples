@@ -1,5 +1,5 @@
 name: Name
-run-name: ${{ github.event.commits.message }}　Run by @${{ github.actor }}
+run-name: ${{ github.event.head_commit.message }}　Run by @${{ github.actor }}
 on: push
 jobs:
     print:
