@@ -6,4 +6,4 @@ jobs:
         steps:
           - run: echo ${{ github.run_id }}
           - run: echo "Hellooooo"
-            if: ${{ contains(github.run_id, '1') }}
+            if: ${{ endsWith(github.run_id, '1') || endsWith(github.run_id, '2') || endsWith(github.run_id, '3') }}
