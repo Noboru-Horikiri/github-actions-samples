@@ -4,5 +4,5 @@ jobs:
     skiip-or-run:
         runs-on: ubuntu-latest
         steps:
-          - run: echo "Helloo"
+          - run: echo "Hellooo"
             if: ${{ contains(github.run_id, '1') }}
