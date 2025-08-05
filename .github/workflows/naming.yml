@@ -1,0 +1,13 @@
+name: Naming
+on: push
+jobs:
+    print:
+      name: a
+      runs-on: ubuntu-latest
+      steps:
+        - name: a-1
+          run: echo "Hello1"
+        - name: a-2
+          run: echo "Hello2"
+        - name: a-3
+          run: echo "Hello3"
