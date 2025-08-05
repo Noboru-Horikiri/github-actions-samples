@@ -1,4 +1,4 @@
-name: name
+name: Name
 run-name: Run by @${{ github.actor }}
 on: push
 jobs:
