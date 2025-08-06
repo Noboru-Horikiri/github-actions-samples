@@ -1,0 +1,8 @@
+name: Github env
+on: push
+jobs:
+    share:
+      runs-on: ubuntu-latest
+      steps:
+        - run: echo "RESULT=Helloo" >> "${GITHUB_ENV}"
+        - run: echo "${RESULT}"
