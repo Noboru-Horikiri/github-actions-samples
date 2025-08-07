@@ -16,3 +16,5 @@ jobs:
           run: echo "Hello4"
         - name: a-5
           run: echo "Hello5"
+        - name: a-6
+          run: echo "Hello6"
